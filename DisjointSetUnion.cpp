@@ -31,5 +31,12 @@ public:
             }
         }
     }
-    
+
+//n is number of nodes in graph
+    int intialise(n)
+{
+    parent.resize(n);
+    rank.resize(n);
+}
+
 };
