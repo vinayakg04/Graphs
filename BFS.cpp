@@ -1,7 +1,7 @@
 void BFS(map<int, vector<int>>& adj, int V, int start) {
     vector<int> visited(V, 0);
     queue<int> que;
-
+    //Level Order BFS
     que.push(start);
     //Mark a node visited as soon as it's pushed into queue
     visited[start] = 1;
